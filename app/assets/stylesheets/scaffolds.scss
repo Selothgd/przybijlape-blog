@@ -63,3 +63,19 @@ div.actions {
 
 label {
   display: block; }
+
+img {
+      width: 454px;
+      height: 340.5px;
+      overflow: hidden;
+      position: relative;
+      last_img {
+        position: absolute;
+        top: -9999px;
+        bottom: -9999px;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
+        background-size: cover;
+      }
+    }
