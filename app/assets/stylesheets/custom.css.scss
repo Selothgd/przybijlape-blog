@@ -21,8 +21,27 @@
   margin-top: 25px;
 }
 
+#home-card-title {
+  height: 50px;
+}
+
+#home-about {
+  margin-top: 25px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 26px;
+  padding: 1em;
+  line-height: 36px;
+}
+
+#home-uslugi {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
 .jumbotron {
-  background-image: asset-url('home.webp');
+  background-image: asset-url('.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +55,7 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgrey;
+  background-color: white;
 }
 
 #sticky-footer {
