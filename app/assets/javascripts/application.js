@@ -6,3 +6,6 @@
 //
 //= require twitter/bootstrap
 //= require_tree .
+//= require bootstrap
+
+import "bootstrap"
