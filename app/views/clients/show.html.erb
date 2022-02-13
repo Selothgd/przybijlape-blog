@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @client.name %>
+</p>
+
+<p>
+  <strong>Pet:</strong>
+  <%= @client.pet %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @client.content %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= link_to @client.image.filename, @client.image if @client.image.attached? %>
+</p>
+
+<%= link_to 'Edit', edit_client_path(@client) %> |
+<%= link_to 'Back', clients_path %>

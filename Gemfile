@@ -27,6 +27,7 @@ gem 'devise-bootstrap-views'
 gem "wysiwyg-rails"
 gem "paperclip", "~> 6.0.0"
 gem 'ckeditor'
+gem 'will_paginate'
 
 
 
